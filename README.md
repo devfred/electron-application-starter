@@ -23,6 +23,11 @@ git clone https://github.com/atom/electron-quick-start
 cd electron-quick-start
 # Install dependencies and run the app
 npm install && npm start
+# Bundle application
+# windows 
+npm run win-bundle
+# linux x64
+npm run linux-64-bundle
 ```
 
 Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
